@@ -55,9 +55,11 @@ def move():
 
     draw()
 
+    "Se reposicionan los targets al tocar la pared"
     for target in targets:
         if not inside(target):
-            return
+            "Se colocan en la posición 200 del vector"
+            target.x = 200 
 
     ontimer(move, 50)
 
