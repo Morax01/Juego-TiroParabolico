@@ -58,8 +58,8 @@ def move():
     for target in targets:
         if not inside(target):
             return
-    # velocidad para el proyectil y los balones
-    ontimer(move, 10)
+
+    ontimer(move, 50)
 
 setup(420, 420, 370, 0)
 hideturtle()
