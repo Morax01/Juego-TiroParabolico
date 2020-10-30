@@ -1,4 +1,5 @@
-#Importación de las librerias
+
+#I mportación de las librerias
 from random import randrange
 from turtle import *
 from freegames import vector
