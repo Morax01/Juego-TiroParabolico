@@ -3,8 +3,8 @@ from random import randrange
 from turtle import *
 from freegames import vector
 
-#Integrantes del equipo:
-# 
+# Integrantes del equipo:
+# Juan Angel Mora Moreno | A00517141
 # Isaac Arredondo Padrón | A00828359
 
 # Inicializador de los vectores de las pelotas rojas y azules
@@ -75,5 +75,6 @@ hideturtle()
 up()
 tracer(False)
 onscreenclick(tap)
+# Se llama la función para mover los orbes y el proyectil
 move()
 done()
